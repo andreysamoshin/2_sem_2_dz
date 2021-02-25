@@ -114,15 +114,15 @@ int main()
     /*
    Container    Microseconds (approx)
   ______________________________________
-    Array               100000
-    Vector              111000
+    Array               213250.0
+    Vector              227000.0
     Forward
-     List               99000
-    Deque               661000
-    List                92000
+     List               144750.0
+    Deque               938703.0
+    List                157750.0
 */
 
-    // the most effective way to sort some kind of an array is to use the "list.sort()" method
+    // the most effective way to sort some kind of an array is to use the "flist.sort()" method
 
     system("pause");
 
